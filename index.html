@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/newsCont.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reg.css">
+    <link rel="stylesheet" href="css/infoDay.css">
+    <link rel="stylesheet" href="css/infoMars.css">
+    <link rel="stylesheet" href="css/moreMars.css">
+    <link rel="stylesheet" href="css/favourites.css">
+    <link rel="stylesheet" href="css/mezh1.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap" rel="stylesheet">
+    <title>Project</title>
+  </head>
+  <body>
+    <div id="popup" class="popup">
+      <div id="popupinfo" class="popupinfo">
+          <span id="exitPopupBtn">X</span>
+      </div>
+  </div>
+    <span id="loader" class="loader">Loading</span>
+
+
+    <div class="redactComCont" id="redactComCont">
+      <div class="redactCominfo" id="redactCominfo">
+        <h3>Redact!</h3>
+        <textarea id="redactComment" name=""></textarea>
+        <button id="redactComBtn">Send</button>
+        <span id="exitRedactBtn">X</span>
+      </div>
+    </div>
+
+
+
+
+    <div id="window" class="window">
+
+      <div class="contRegAndAvt">
+
+        <div class="blockRegAndAvt">
+
+          <section class="block_item block-item">
+            <h2 class="block-item_title">У вас уже есть аккаунт?</h2>
+            <button id="signBtnSwap" class="block-item_btn">Войти</button>
+          </section>
+          <section class="block_item block-item">
+            <h2 class="block-item_title">У вас нет аккаунта?</h2>
+            <button id="regBtnSwap" class="block-item_btn">Зарегистрироваться</button>
+          </section>
+
+        </div>
+
+        <!-- блок формы -->
+
+        <div id="formBox" class="form-box">
+          <!-- форма взода -->
+          <form id="formAvt" class="form formAvt" action="">
+            <h3 class="form_title">Вход</h3>
+
+            
+            <input id="avtLoginInp" class="form_input" type="text" placeholder="Login">
+            
+            
+            <input id="avtEmailInp" type="email" class="form_input" placeholder="Email">
+            
+          
+            <button id="avtUserBtn" class="form_btn">Send</button>
+            
+          </form>
+
+          <!-- форма регистарции -->
+          <form id="formReg" class="form formReg" action="">
+            <h3 class="form_title">Reg</h3>
+
+            
+            <input id="regLoginInp" class="form_input" type="text" placeholder="Login">
+            <span class="error" id="loginError"></span>
+            
+            <input id="regEmailInp" type="email" class="form_input" placeholder="Email">
+            <span class="error" id="emailError"></span>
+          
+            <button id="regNewUserBtn" class="form_btn">ЗаReg</button>
+            
+          </form>
+
+        </div>
+
+      </div>
+      
+    </div>
+
+    <div class="wrappper">
+
+      
+
+      <div id="app">
+        <header>
+            <div class="head">
+              <span>Seregins</span>
+
+              <img src="images/NASA_logo.svg" alt="">
+                
+              <div class="headBtn">
+                <button id="exitAccaunt">Exit Account</button>
+                <button id="favouritesBtn">Favourites</button>
+            </div>
+        </header>
+        <main>
+          <div id="FavMainCont" class="FavMainCont">
+            <div id="favouritesCont" class="favouritesCont">
+              <div id="btnDelAllCardCont" class="btnDelAllCardCont">
+                <button id="btnDelAllCard" class="btnDelAllCard">Delete All Favourites</button>
+              </div>
+              <div id="cardContFav" class="cardContFav">
+                  
+              </div>
+            </div>
+          </div>
+
+
+
+          <div id="mainInfo" class="mainInfo">
+              <section> <!-- Sec-1 -->
+                <div class="sec-1">
+                  <div class="dayCont" id="dayCont">
+                    <h3>This photo is sourced from NASA's API, showcasing the wonders of space exploration and astronomical events</h3>
+                    <div id="apiInfoCont" class="apiInfoCont">
+                      <img id="imgday" src="" alt="">
+                      <div id="apiTextCont" class="apiTextCont">
+                        <h2 id="titleInfoDay"></h2>
+                        <span id="textInfoDay"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            <section> <!-- Sec-2 -->
+              <div class="sec-2">
+                <div id="moreImageDay" class="moreImageDay">
+                  <h3>With our calendar, you can select a date and receive a unique photo and information from NASA related to the events of that day</h3>
+                  <div class="dateImgCont">
+                    <div class="dateCont">
+                      <h3>Please enter a date from 2011 onwards in the format YYYY-MM-DD. This will allow you to access NASA's unique photo and information for that specific day</h3>
+                      <div class="getDateUS">
+                        <p>Date in the format YY MM DD</p>
+                        <input id="dateValue" type="text" placeholder="2012-08-12">
+                        <button id="sendDateBtn">Send</button>
+                      </div>
+                    </div>
+                    <div class="imageMoreDayCont">
+                      <img id="imgMoreDay" src="images/volcano_reitze_1280.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="textMoreDay">
+                    <h3 id="titleMoreDay">The Large Magellanic Cloud Galaxy</h3>
+                    <span id="textMoreDay">It is the largest satellite galaxy of our home Milky Way Galaxy. If you live in the south, the Large Magellanic Cloud (LMC) is quite noticeable, spanning about 10 degrees across the night sky, which is 20 times larger than the full moon towards the southern constellation of the dolphinfish (Dorado). Being only about 160,000 light years away, many details of the LMC's structure can be seen, such as its central bar and its single spiral arm. The LMC harbors numerous stellar nurseries where new stars are being born, which appear in pink in the featured image. It is home to the Tarantula Nebula, the currently most active star forming region in the entire Local Group, a small collection of nearby galaxies dominated by the massive Andromeda and Milky Way galaxies. Studies of the LMC and the Small Magellanic Cloud (SMC) by Henrietta Swan Leavitt led to the discovery of the period-luminosity relationship of Cepheid variable stars that are used to measure distances across the nearby universe. Survey: Color Blindness and Astronomical Images</span>
+                  </div>
+                  
+                </div>
+              </div>
+            </section>
+             <section> <!--мЕЖКОНТ -->
+              <div class="mezhCont1">
+                <h3>Explore the Universe from your Inbox</h3>
+                <h2>Stay up-to-date on the latest news from NASA–from Earth to the Moon, the Solar System and beyond</h2>
+                <p>We will never share your email address <span><a href="https://www.nasa.gov/privacy/">Privacy Policy</a></span></p>
+              </div>
+            </section>
+              <section> <!-- Sec-3 -->
+                <div class="sec-3">
+                  <div id="marsCont" class="marsCont">
+                    <h3>Nasa has photos from the rover capturing stunning landscapes and details of the Martian surface</h3>
+                    <div class="glavContMars">
+                      <div id="marsImg" class="marsImg">
+                        <img id="imgMars" src="" alt="">
+                      </div>
+                      <div class="infoAndBtnCont">
+                        <div class="marsInfoCont">
+                          <span>NASA's Mars Rover Photos API offers a fascinating way for space enthusiasts, students, and researchers to explore the surface of Mars through real images captured by the rovers Curiosity, Opportunity, and Spirit. These robotic explorers, part of NASA’s mission to study the Martian landscape, send back detailed photos of the Red Planet’s rocky terrain, craters, and vast plains, giving users a chance to virtually experience another world.</span>
+                        </div>
+                        <div class="moreMarsBtn">
+                          <button id="moreMarsFotoBtn">More</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section> <!-- Sec-4 -->
+                <div class="sec-4">
+                  <div id="newsCont" class="newsCont">
+                    <h3>Nasa offers a search feature to explore images and data based on your queries</h3>
+
+                    <div class="infoNewsContAndImg">
+                      <div class="textNews">
+                        <h1>With the NASA API, you can explore a variety of astronomical topics. Here are 11 specific queries you can use:</h1><br><br>
+
+                        <h3>Astronomical Objects:</h3><br><br>
+                        
+                        <p><span>"mars"</span>: Search for images and videos related to Mars</p> 
+                        <p><span>"jupiter"</span>: Access stunning images of Jupiter</p>
+                        <p><span>"moon"</span>: Explore content related to the Moon</p>
+                        <p><span>"black hole"</span>: Discover fascinating information about black holes</p><br><br>
+                        
+                        <h3>Missions:</h3><br><br>
+                        
+                        <p><span>"apollo 11"</span>: Access materials from the Apollo 11 mission</p>
+                        <p><span>"voyager"</span>: Explore data from the Voyager mission</p>
+                        <p><span>"curiosity"</span>: Get insights and images from the Curiosity rover</p><br><br>
+                        
+                        <h3>Spacecraft:</h3><br><br>
+                        
+                        <p><span>"space shuttle"</span>: Find materials related to the Space Shuttle program</p>
+                        <p><span>"iss"</span>: Stay updated on the International Space Station (ISS)</p><br><br>
+                        
+                        <h3>Natural Phenomena:</h3><br><br>
+                        
+                        <p><span>"solar eclipse"</span>: Discover content related to solar eclipses</p>
+                        <p><span>"aurora"</span>: Explore stunning visuals of the Northern Lights</p>
+                        <p><span>"hurricane"</span>: Access images of hurricanes captured from space</p><br><br>
+                        
+                        <h3>Personalities:</h3><br><br>
+                        
+                        <p><span>"neil armstrong"</span>: Learn more about Neil Armstrong</p>
+                        <p><span>"buzz aldrin"</span>: Discover information about Buzz Aldrin</p><br><br>
+                        
+                        <h3>Space Telescopes:</h3><br><br>
+                        
+                        <p><span>"hubble"</span>: Access images and videos from the Hubble Space Telescope</p>
+                        <p><span>"james webb"</span>: Explore materials from the James Webb Space Telescope</p><br><br>
+                        
+                        <h2>These queries will help you find unique images, videos, and data related to your interests in astronomy and space exploration</h2>
+                      </div>
+
+                      <img src="images/image 2.png" alt="">
+                    </div>
+                    <div class="newsQueryCont">
+                      <span>Send a request</span>
+                      <input type="text" name="queryNews" id="queryNews" class="queryNews">
+                      <button id="queryNewsBtn">Send</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+                <section> <!-- Sec5 -->
+                <div id="glavNewsSec" class="glavNewsSec">
+                  <div id="newsCardCont" class="newsCardCont">
+                    <!-- сами карточки -->
+                    
+                  </div>
+                  <div id="paggNewsCont" class="paggNewsCont">
+                    <!-- кнопки для пагинации -->
+                  </div>
+                </div>
+              </section>
+          </div>
+        </main>
+        <footer>
+          <div class="footer">
+            <div class="osnFooter">
+              <div class="infoFooter">
+                <img src="images/footerImage.png" alt="">
+                <h3>National Aeronautics and Space Administration</h3>
+                <p>NASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery.</p>
+                <span>About NASA's Mission</span>
+              </div>
+              <div class="listComFooter">
+                <div class="lictFooter1">
+                  <nav>
+                    <ul>
+                      <li>Home</li>
+                      <li>News & Events</li>
+                      <li>Multimedia</li>
+                      <li>NASA+</li>
+                      <li>Missions</li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="lictFooter2">
+                  <nav>
+                    <ul>
+                      <li>Humans in Space</li>
+                      <li>Earth & Climate</li>
+                      <li>The Solar System</li>
+                      <li>The Universe</li>
+                      <li>Science</li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="contactFooter">
+                  <h3>Follow NASA</h3>
+                  <div class="iconFooter">
+                    <!-- <i><img src="images/facebook-app-symbol.png" alt=""></i>
+                    <i><img src="images/instagram.png" alt=""></i>
+                    <i><img src="images/twitter.png" alt=""></i>
+                    <i><img src="images/telegram.png" alt=""></i> -->
+                  </div>
+                  <h2>More NASA Social Accounts</h2>
+                  <span>NASA Newsletters</span>
+                </div>
+              </div>
+            </div>
+            <div class="poloska"></div>
+            <div class="butFooter">
+              <span>Sitemap</span>
+              <span>For Media</span>
+              <span>Privacy Policy</span>
+              <span>FOIA</span>
+              <span>No FEAR Act</span>
+              <span>Office of the IG</span>
+              <span>Budget & Annual Reports</span>
+              <span>Agency Financial Reports</span>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  <script type="module" src="js/regAndAvt.js"></script>
+  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/day.js"></script>
+  <script type="module" src="js/mars.js"></script>
+  <script type="module" src="js/news.js"></script>
+</body>
+</html>

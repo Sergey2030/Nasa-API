@@ -1,0 +1,256 @@
+
+
+/* ГОТОВО! */
+
+:root{
+    --bg1: #121212;
+    --bg2: #000;
+    --textWhite: #fff;
+  }
+
+
+.marsCont{
+    width: 1440px;
+    height: 1000px;
+    padding: 70px 128px;
+    background-color: var(--bg1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.marsCont h3{
+    width: 832px;
+    height: 76px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--textWhite);
+}
+
+.glavContMars{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.marsImg img{
+    width: 800px;
+    height: 650px;
+    
+}
+
+
+.infoAndBtnCont{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+.marsInfoCont{
+    padding: 45px 40px;
+    background-color: #000000;
+    width: 345px;
+    height: auto;;
+    border-radius: 0;
+    border: 1px solid var(--textWhite);
+}
+
+.marsInfoCont > span{
+    display: flex;
+    height: auto;
+    color: var(--textWhite  );
+}
+
+
+.moreMarsBtn button{
+    width: 159px;
+    height: 46px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid var(--textWhite);
+    border-radius: 20px;
+    cursor: pointer;
+    color: var(--textWhite);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.moreMarsBtn button:hover{
+    background-color: #FFF;
+    color: #000;
+    border: 1px solid #000;
+}
+
+
+
+
+@media (max-width: 1000px){
+    .marsCont{
+        width: 1000px;
+        height: 628px;
+        padding: 46px 100px;
+    }
+    
+    .marsCont h3{
+        width: 625px;
+        font-size: 1.5rem;
+    }
+    
+   
+    
+    .marsImg img{
+        width: 500px;
+        height: 400px;
+        
+    }
+    
+    
+    .infoAndBtnCont{
+        height: 400px;
+    }
+    
+    
+    .marsInfoCont{
+        padding: 20px;
+        width: 213px;
+    }
+    
+    .marsInfoCont > span{
+        display: flex;
+        height: auto;
+        color: var(--textWhite  );
+        font-size: 0.81rem;
+    }
+    
+    
+    .moreMarsBtn button{
+        width: 100px;
+        height: 36px;
+        font-size: 1rem;
+    }
+    
+    .moreMarsBtn button:hover{
+        background-color: #FFF;
+        color: #000;
+        border: 1px solid #000;
+    }
+}
+
+
+@media (max-width: 768px){
+    .marsCont{
+        width: 768px;
+        height: 473px;
+        padding: 35px 75px;
+    }
+    
+    .marsCont h3{
+        width: 521px;
+        font-size: 1.25rem;
+    }
+    
+   
+    
+    .marsImg img{
+        width: 400px;
+        height: 300px;
+        
+    }
+    
+    
+    .infoAndBtnCont{
+        height: 300px;
+    }
+    
+    
+    .marsInfoCont{
+        padding: 15px;
+        width: 200px;
+    }
+    
+    .marsInfoCont > span{
+        display: flex;
+        height: auto;
+        color: var(--textWhite  );
+        font-size: 0.75rem;
+    }
+    
+    
+    .moreMarsBtn button{
+        width: 100px;
+        height: 36px;
+        font-size: 1rem;
+    }
+    
+    .moreMarsBtn button:hover{
+        background-color: #FFF;
+        color: #000;
+        border: 1px solid #000;
+    }
+}
+
+
+@media (max-width: 480px){
+    .marsCont{
+        width: 480px;
+        height: 700px;
+        padding: 35px 55px;
+    }
+    
+    .marsCont h3{
+        width: 421px;
+        font-size: 1rem;
+    }
+    
+    .glavContMars{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+   
+    
+    .marsImg img{
+        width: 300px;
+        height: 200px;
+        
+    }
+    
+    
+    .infoAndBtnCont{
+        height: 350px;
+    }
+    
+    
+    .marsInfoCont{
+        padding: 15px;
+        width: 200px;
+    }
+    
+    .marsInfoCont > span{
+        display: flex;
+        height: auto;
+        color: var(--textWhite  );
+        font-size: 0.75rem;
+    }
+    
+    
+    .moreMarsBtn button{
+        width: 100px;
+        height: 36px;
+        font-size: 1rem;
+    }
+    
+    .moreMarsBtn button:hover{
+        background-color: #FFF;
+        color: #000;
+        border: 1px solid #000;
+    }
+}

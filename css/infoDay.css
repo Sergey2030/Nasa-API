@@ -1,0 +1,652 @@
+
+
+/* ГОТОВО!!!! */
+
+
+:root{
+    --bg1: #121212;
+    --bg2: #000;
+    --textWhite: #fff;
+}
+
+
+.dayCont{
+    padding: 70px 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: var(--bg2);
+    width: 1440px;
+    height: 1000px;
+}
+
+.dayCont h3{
+    width: 872px;
+    height: 76px;
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--textWhite);
+}
+
+
+.apiInfoCont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.apiInfoCont img{
+    width: 800px;
+    height: 650px;
+}
+
+
+.apiTextCont{
+    border: 1px solid var(--textWhite);
+    border-radius: 0;
+    padding: 20px;
+    min-height: 0;
+    width: 465px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.apiTextCont h2{
+    color: var(--textWhite);
+    margin-bottom: 60px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+
+.apiTextCont span{
+    color: var(--textWhite);
+}
+
+
+
+/* ---------------------------------------------------------- */
+.moreImageDay{
+    width: 1440px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 70px 75px;
+    background-color: var(--bg1);
+}
+
+.moreImageDay h3{
+    width: 991px;
+    height: 76px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--textWhite);
+    margin-bottom: 80px;
+}
+
+.dateImgCont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dateCont{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 450px;
+    height: 500px;
+    padding: 30px 40px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0;
+    border: 1px solid var(--textWhite);
+}
+
+.dateCont h3{
+    width: 369px;
+    height: 140px;
+    font-size: 1.5rem;
+    color: var(--textWhite);
+}
+
+.getDateUS{
+    height: 160px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.getDateUS p{
+    color: var(--textWhite);
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.getDateUS input{
+    width: 300px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 0;
+    padding: 0px 10px;
+    font-size: 1rem;
+    color: var(--bg2);
+}
+
+.getDateUS input::placeholder {
+    margin-left: 10px;
+    color: var(--bg2);
+    font-size: 1rem;
+}
+
+.getDateUS button{
+    color: var(--textWhite);
+    font-weight: bold;
+    padding: 11px 55px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    border: 1px solid var(--textWhite);
+    cursor: pointer;
+}
+
+.getDateUS button:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+.imageMoreDayCont img{
+    width: 800px;
+    height: 650px;
+}
+
+
+
+
+.textMoreDay{
+    min-height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0;
+    border: 1px solid var(--textWhite);
+    padding: 21px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 1290px;
+}
+
+.textMoreDay h3{
+    width: auto;
+    height: 24px;
+    color: var(--textWhite);
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.textMoreDay span{
+    font-size: 1rem;
+    color: var(--textWhite);
+}
+
+
+
+
+
+
+
+@media (max-width: 1000px){
+    .dayCont{
+        padding: 46px 75px;
+        width: 1000px;
+        height: 669px;
+    }
+    
+    .dayCont h3{
+        width: 629px;
+        font-size: 1.5rem;
+    }
+    
+    
+    .apiInfoCont{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    
+    .apiInfoCont img{
+        width: 500px;
+        height: 400px;
+    }
+    
+    
+    .apiTextCont{
+        padding: 18px 29px;
+        width: 329px;
+    }
+    
+    .apiTextCont h2{
+        margin-bottom: 25px;
+        font-size: 1rem;
+    }
+    
+    
+    .apiTextCont span{
+        font-size: 0.81rem;
+    }
+    
+    
+    
+    /* ---------------------------------------------------------- */
+    .moreImageDay{
+        width: 1000px;
+        padding: 46px 75px;
+    }
+    
+    .moreImageDay h3{
+        width: 753px;
+        height: 56px;
+        font-size: 1.5rem;
+        margin-bottom: 60px;
+    }
+    
+    .dateImgCont{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .dateCont{
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 272px;
+        height: 350px;
+        padding: 20px;
+    }
+    
+    .dateCont h3{
+        width: 225px;
+        height: 112px;
+        font-size: 1rem;
+    }
+    
+    .getDateUS{
+        height: 130px;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .getDateUS p{
+        font-size: 1rem;
+    }
+    
+    .getDateUS input{
+        width: 200px;
+        height: 30px;
+        padding: 0px 5px;
+        font-size: 0.85rem;
+    }
+    
+    .getDateUS input::placeholder {
+        margin-left: 5px;
+        font-size: 0.85rem;
+    }
+    
+    .getDateUS button{
+        padding: 8px 30px;
+    }
+    
+    .getDateUS button:hover{
+        background-color: #ffffff;
+        color: #000000;
+    }
+    
+    
+    .imageMoreDayCont img{
+        width: 500px;
+        height: 500px;
+    }
+    
+    
+    
+    
+    .textMoreDay{
+        padding: 19px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 850px;
+    }
+    
+    .textMoreDay h3{
+        width: auto;
+        height: 24px;
+        font-size: 1rem;
+        margin-bottom: 19px;
+    }
+    
+    .textMoreDay span{
+        font-size: 0.81rem;
+    }
+}
+
+
+
+
+@media (max-width: 768px){
+    .dayCont{
+        padding: 46px 75px;
+        width: 768px;
+        height: auto;
+    }
+    
+    .dayCont h3{
+        width: 532px;
+        font-size: 1.25rem;
+    }
+    
+    
+    .apiInfoCont{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    
+    .apiInfoCont img{
+        width: 300px;
+        height: 300px;
+    }
+    
+    
+    .apiTextCont{
+        padding: 15px;
+        width: 300px;
+    }
+    
+    .apiTextCont h2{
+        margin-bottom: 25px;
+        font-size: 0.87rem;
+    }
+    
+    
+    .apiTextCont span{
+        font-size: 0.75rem;
+    }
+    
+    
+    
+    /* ---------------------------------------------------------- */
+    .moreImageDay{
+        width: 768px;
+        padding: 46px 75px;
+    }
+    
+    .moreImageDay h3{
+        width: 620px;
+        height: 56px;
+        font-size: 1.25rem;
+        margin-bottom: 40px;
+    }
+    
+    .dateImgCont{
+        margin-bottom: 40px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .dateCont{
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 272px;
+        height: 350px;
+        padding: 20px;
+    }
+    
+    .dateCont h3{
+        width: 225px;
+        height: 112px;
+        font-size: 1rem;
+    }
+    
+    .getDateUS{
+        height: 130px;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .getDateUS p{
+        font-size: 1rem;
+    }
+    
+    .getDateUS input{
+        width: 200px;
+        height: 30px;
+        padding: 0px 5px;
+        font-size: 0.85rem;
+    }
+    
+    .getDateUS input::placeholder {
+        margin-left: 5px;
+        font-size: 0.85rem;
+    }
+    
+    .getDateUS button{
+        padding: 8px 30px;
+    }
+    
+    .getDateUS button:hover{
+        background-color: #ffffff;
+        color: #000000;
+    }
+    
+    
+    .imageMoreDayCont img{
+        width: 300px;
+        height: 300px;
+    }
+    
+    
+    
+    
+    .textMoreDay{
+        padding: 19px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 620px;
+    }
+    
+    .textMoreDay h3{
+        width: auto;
+        height: 24px;
+        font-size: 1rem;
+        margin-bottom: 19px;
+    }
+    
+    .textMoreDay span{
+        font-size: 0.81rem;
+    }
+}
+
+
+
+
+@media (max-width: 480px){
+    .dayCont{
+        padding: 46px 75px;
+        width: 480px;
+        height: auto;
+    }
+    
+    .dayCont h3{
+        width: 400px;
+        font-size: 0.90rem;
+    }
+    
+    
+    .apiInfoCont{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    
+    .apiInfoCont img{
+        width: 300px;
+        height: 300px;
+    }
+    
+    
+    .apiTextCont{
+        padding: 15px;
+        width: 300px;
+    }
+    
+    .apiTextCont h2{
+        margin-bottom: 25px;
+        font-size: 0.87rem;
+    }
+    
+    
+    .apiTextCont span{
+        font-size: 0.75rem;
+    }
+    
+    
+    
+    /* ---------------------------------------------------------- */
+    .moreImageDay{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 480px;
+        padding: 46px 75px;
+    }
+    
+    .moreImageDay h3{
+        width: 400px;
+        height: 56px;
+        font-size: 0.90rem;
+        margin-bottom: 20px;
+    }
+    
+    .dateImgCont{
+        height: 700px;
+        margin-bottom: 40px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .dateCont{
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 272px;
+        height: 350px;
+        padding: 20px;
+    }
+    
+    .dateCont h3{
+        width: 225px;
+        height: 112px;
+        font-size: 1rem;
+    }
+    
+    .getDateUS{
+        height: 130px;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .getDateUS p{
+        font-size: 1rem;
+    }
+    
+    .getDateUS input{
+        width: 200px;
+        height: 30px;
+        padding: 0px 5px;
+        font-size: 0.85rem;
+    }
+    
+    .getDateUS input::placeholder {
+        margin-left: 5px;
+        font-size: 0.85rem;
+    }
+    
+    .getDateUS button{
+        padding: 8px 30px;
+    }
+    
+    .getDateUS button:hover{
+        background-color: #ffffff;
+        color: #000000;
+    }
+    
+    
+    .imageMoreDayCont img{
+        width: 300px;
+        height: 300px;
+    }
+    
+    
+    
+    
+    .textMoreDay{
+        padding: 19px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 420px;
+    }
+    
+    .textMoreDay h3{
+        width: auto;
+        height: 24px;
+        font-size: 1rem;
+        margin-bottom: 19px;
+    }
+    
+    .textMoreDay span{
+        font-size: 0.81rem;
+    }
+}

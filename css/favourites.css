@@ -1,0 +1,1105 @@
+:root{
+  --bg1: #121212;
+  --bg2: #000;
+  --textWhite: #fff;
+}
+
+
+.FavMainCont{
+  background-color: var(--bg1);
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+.btnDelAllCard{
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 15px;
+  color: var(--textWhite);
+  background-color: var(--bg2);
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.btnDelAllCard:hover{
+  background-color: #fff;
+  color: #000;
+  border: 0;
+  cursor: pointer;
+}
+
+.favouritesCont{
+  height: auto;
+  padding: 70px 75px;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  /* flex-wrap: wrap; Позволяет элементам переходить на новую строку */
+  width: 1440px;
+}
+
+
+.divCom{
+  padding: 10px;
+  width: 350px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: rgb(46, 44, 44);
+  margin-top: 10px;
+}
+
+
+.divBtnRedactDel{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 170px;
+}
+
+
+
+.infoCom{
+  margin-bottom: 5px;
+  color: var(--textWhite);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+
+.comtext{
+  margin-bottom: 5px;
+  overflow: hidden;
+  width: 330px;
+  font-size: 1.10rem;
+  font-weight: 500;
+  color: var(--textWhite);
+}
+
+
+.btnRedactCom{
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 15px;
+  color: var(--textWhite);
+  background-color: var(--bg2);
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.btnRedactCom:hover{
+  background-color: #fff;
+  color: #000;
+  border: 0;
+  cursor: pointer;
+}
+
+
+.btnDelCom{
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 15px;
+  color: var(--textWhite);
+  background-color: var(--bg2);
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.btnDelCom:hover{
+  background-color: #fff;
+  color: #000;
+  border: 0;
+  cursor: pointer;
+}
+
+
+
+
+.divAddCom{
+  padding: 10px;
+  width: 350px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: var(--bg2);
+}
+
+
+.textAreaCom{
+  color: var(--textWhite);
+  font-weight: 400;
+  font-size: 1rem;
+  background-color: var(--bg1);
+}
+
+.textComAdd{
+  color: var(--textWhite);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.sendComBtn{
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 15px;
+  color: var(--textWhite);
+  background-color: var(--bg1);
+  border: 1px solid var(--textWhite);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.sendComBtn:hover{
+  background-color: #fff;
+  color: #000;
+  border: 1px solid var(--bg1);
+  cursor: pointer;
+}
+
+.cardContFav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+.cardNews{
+  width: 350px;
+  height: 585px;
+  border-radius: 15px;
+  padding: 31px 27px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: url(/images/jsc2022e046413_orig.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.divBtnFav{
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.delCardBtn{
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 10px 15px;
+  color: var(--textWhite);
+  background-color: var(--bg2);
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.delCardBtn:hover{
+  background-color: #fff;
+  color: #000;
+  border: 0;
+  cursor: pointer;
+}
+
+.addComBtn{
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 10px 15px;
+  color: var(--textWhite);
+  background-color: var(--bg2);
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.addComBtn:hover{
+  background-color: #fff;
+  color: #000;
+  border: 0;
+  cursor: pointer;
+}
+
+.cardAndCom{
+  margin-bottom: 50px;
+}
+
+.titleCardNews{
+  color: var(--textWhite);
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+
+.moreInfoBtn{
+  width: 150px;
+  height: 60px;
+  border-radius: 15px;
+  border: 1px solid var(--textWhite);
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--textWhite);
+  font-size: 1.25rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.moreInfoBtn:hover{
+  background-color: #000;
+}
+
+
+.dataCardNews{
+  font-size: 1.5rem;
+  color: var(--bg1);
+  font-weight: 500;
+}
+
+
+.linkCardNews{
+  color: var(--bg1);
+}
+
+
+
+.newsCardCont{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+
+@media(max-width: 1000px){
+  .FavMainCont{
+    background-color: var(--bg1);
+    width: 100%;
+    height: auto;
+  }
+  
+  .favouritesCont{
+    height: auto;
+    padding: 70px 75px;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* flex-wrap: wrap; Позволяет элементам переходить на новую строку */
+    width: 1000px;
+  }
+  
+  
+  .divCom{
+    padding: 10px;
+    width: 350px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgb(46, 44, 44);
+    margin-top: 10px;
+  }
+  
+  
+  .divBtnRedactDel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 170px;
+  }
+  
+  
+  
+  .infoCom{
+    margin-bottom: 5px;
+    color: var(--textWhite);
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  
+  
+  .comtext{
+    margin-bottom: 5px;
+    overflow: hidden;
+    width: 330px;
+    font-size: 1.10rem;
+    font-weight: 500;
+    color: var(--textWhite);
+  }
+  
+  
+  .btnRedactCom{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    color: var(--textWhite);
+    background-color: var(--bg2);
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .btnRedactCom:hover{
+    background-color: #fff;
+    color: #000;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  
+  .btnDelCom{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    color: var(--textWhite);
+    background-color: var(--bg2);
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .btnDelCom:hover{
+    background-color: #fff;
+    color: #000;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  .divAddCom{
+    padding: 10px;
+    width: 350px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: var(--bg2);
+  }
+  
+  
+  .textAreaCom{
+    color: var(--textWhite);
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: var(--bg1);
+  }
+  
+  .textComAdd{
+    color: var(--textWhite);
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .sendComBtn{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    color: var(--textWhite);
+    background-color: var(--bg1);
+    border: 1px solid var(--textWhite);
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .sendComBtn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid var(--bg1);
+    cursor: pointer;
+  }
+  
+  .cardContFav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .cardNews{
+    width: 350px;
+    height: 585px;
+    border-radius: 15px;
+    padding: 31px 27px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: url(/images/jsc2022e046413_orig.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  .divBtnFav{
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  .delCardBtn{
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    color: var(--textWhite);
+    background-color: var(--bg2);
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .delCardBtn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .addComBtn{
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    color: var(--textWhite);
+    background-color: var(--bg2);
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .addComBtn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .cardAndCom{
+    margin-bottom: 50px;
+  }
+  
+  .titleCardNews{
+    color: var(--textWhite);
+    font-weight: 500;
+    font-size: 2rem;
+  }
+  
+  
+  .moreInfoBtn{
+    width: 150px;
+    height: 60px;
+    border-radius: 15px;
+    border: 1px solid var(--textWhite);
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--textWhite);
+    font-size: 1.25rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .moreInfoBtn:hover{
+    background-color: #000;
+  }
+  
+  
+  .dataCardNews{
+    font-size: 1.5rem;
+    color: var(--bg1);
+    font-weight: 500;
+  }
+  
+  
+  .linkCardNews{
+    color: var(--bg1);
+  }
+  
+  
+  
+  .newsCardCont{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+
+
+
+
+@media(max-width: 768px){
+  .FavMainCont{
+    background-color: var(--bg1);
+    width: 100%;
+    height: auto;
+  }
+  
+  .favouritesCont{
+    height: auto;
+    padding: 70px 75px;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 768px;
+  }
+  
+  
+  .divCom{
+    padding: 10px;
+    width: 250px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgb(46, 44, 44);
+    margin-top: 10px;
+  }
+  
+  
+  .divBtnRedactDel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 170px;
+  }
+  
+  
+  
+  .infoCom{
+    margin-bottom: 5px;
+    color: var(--textWhite);
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  
+  
+  .comtext{
+    margin-bottom: 5px;
+    overflow: hidden;
+    width: 330px;
+    font-size: 1.10rem;
+    font-weight: 500;
+    color: var(--textWhite);
+  }
+  
+  
+  .btnRedactCom{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    color: var(--textWhite);
+    background-color: var(--bg2);
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .btnRedactCom:hover{
+    background-color: #fff;
+    color: #000;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  
+  .btnDelCom{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    color: var(--textWhite);
+    background-color: var(--bg2);
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .btnDelCom:hover{
+    background-color: #fff;
+    color: #000;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  .divAddCom{
+    padding: 10px;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: var(--bg2);
+  }
+  
+  
+  .textAreaCom{
+    color: var(--textWhite);
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: var(--bg1);
+  }
+  
+  .textComAdd{
+    color: var(--textWhite);
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .sendComBtn{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    color: var(--textWhite);
+    background-color: var(--bg1);
+    border: 1px solid var(--textWhite);
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .sendComBtn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid var(--bg1);
+    cursor: pointer;
+  }
+  
+  .cardContFav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .cardNews{
+    width: 350px;
+    height: 585px;
+    border-radius: 15px;
+    padding: 31px 27px;
+    display: flex; 
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: url(/images/jsc2022e046413_orig.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  .divBtnFav{
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  .delCardBtn{
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    color: var(--textWhite);
+    background-color: var(--bg2);
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .delCardBtn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .addComBtn{
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    color: var(--textWhite);
+    background-color: var(--bg2);
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .addComBtn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .cardAndCom{
+    margin-bottom: 50px;
+  }
+  
+  .titleCardNews{
+    color: var(--textWhite);
+    font-weight: 500;
+    font-size: 2rem;
+  }
+  
+  
+  .moreInfoBtn{
+    width: 150px;
+    height: 60px;
+    border-radius: 15px;
+    border: 1px solid var(--textWhite);
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--textWhite);
+    font-size: 1.25rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .moreInfoBtn:hover{
+    background-color: #000;
+  }
+  
+  
+  .dataCardNews{
+    font-size: 1.5rem;
+    color: var(--bg1);
+    font-weight: 500;
+  }
+  
+  
+  .linkCardNews{
+    color: var(--bg1);
+  }
+  
+  
+  
+  .newsCardCont{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+
+
+
+
+
+@media(max-width: 480px){
+  .FavMainCont{
+    background-color: var(--bg1);
+    width: 100%;
+    height: auto;
+  }
+  
+  .cardContFav{
+    height: auto;
+    padding: 70px 75px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 480px;
+  }
+  
+  
+  .divCom{
+    padding: 10px;
+    width: 250px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgb(46, 44, 44);
+    margin-top: 10px;
+  }
+  
+  
+  .divBtnRedactDel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 170px;
+  }
+  
+  .favouritesCont{
+    width: 480px;
+  }
+
+  
+  
+  .infoCom{
+    margin-bottom: 5px;
+    color: var(--textWhite);
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  
+  
+  .comtext{
+    margin-bottom: 5px;
+    overflow: hidden;
+    width: 330px;
+    font-size: 1.10rem;
+    font-weight: 500;
+    color: var(--textWhite);
+  }
+  
+  
+  .btnRedactCom{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    color: var(--textWhite);
+    background-color: var(--bg2);
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .btnRedactCom:hover{
+    background-color: #fff;
+    color: #000;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  
+  .btnDelCom{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    color: var(--textWhite);
+    background-color: var(--bg2);
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .btnDelCom:hover{
+    background-color: #fff;
+    color: #000;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  .divAddCom{
+    padding: 10px;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: var(--bg2);
+  }
+  
+  
+  .textAreaCom{
+    color: var(--textWhite);
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: var(--bg1);
+  }
+  
+  .textComAdd{
+    color: var(--textWhite);
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .sendComBtn{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    color: var(--textWhite);
+    background-color: var(--bg1);
+    border: 1px solid var(--textWhite);
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .sendComBtn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid var(--bg1);
+    cursor: pointer;
+  }
+  
+  .cardContFav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .cardNews{
+    width: 350px;
+    height: 585px;
+    border-radius: 15px;
+    padding: 31px 27px;
+    display: flex; 
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: url(/images/jsc2022e046413_orig.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  .divBtnFav{
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  .delCardBtn{
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    color: var(--textWhite);
+    background-color: var(--bg2);
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .delCardBtn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .addComBtn{
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    color: var(--textWhite);
+    background-color: var(--bg2);
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .addComBtn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .cardAndCom{
+    margin-bottom: 50px;
+  }
+  
+  .titleCardNews{
+    color: var(--textWhite);
+    font-weight: 500;
+    font-size: 2rem;
+  }
+  
+  
+  .moreInfoBtn{
+    width: 150px;
+    height: 60px;
+    border-radius: 15px;
+    border: 1px solid var(--textWhite);
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--textWhite);
+    font-size: 1.25rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .moreInfoBtn:hover{
+    background-color: #000;
+  }
+  
+  
+  .dataCardNews{
+    font-size: 1.5rem;
+    color: var(--bg1);
+    font-weight: 500;
+  }
+  
+  
+  .linkCardNews{
+    color: var(--bg1);
+  }
+  
+  
+  
+  .newsCardCont{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

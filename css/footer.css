@@ -1,0 +1,693 @@
+
+/* ГОТОВО!!! */
+
+
+*, body, html{
+    list-style-type: none;
+}
+
+
+:root{
+    --bg1: #121212;
+    --bg2: #000;
+    --textWhite: #fff;
+}
+
+
+.footer{
+    width: 100%;
+    height: 606px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 70px 75px;
+   background-color: var(--bg2);
+}
+
+.osnFooter{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.infoFooter{
+    height: 80%;
+    width: 60%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.infoFooter h3{
+    width: 360px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--textWhite);
+}
+
+.infoFooter p{
+    width: 397px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--textWhite);
+}
+
+.infoFooter span{
+    width: 163px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--textWhite);
+}
+
+
+.listComFooter{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+}
+
+.lictFooter1 nav ul{
+    width: 150px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.lictFooter1 nav ul li{
+    color: var(--textWhite);
+    font-weight: 500;
+}
+
+
+
+.lictFooter2 nav ul{
+    width: 150px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.lictFooter2 nav ul li{
+    color: var(--textWhite);
+    font-weight: 500;
+}
+
+
+
+
+
+
+.contactFooter{
+    height: 56%;
+    width: 250px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    color: var(--textWhite);
+}
+
+.iconFooter{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.iconFooter i{
+    background-color: var(--textWhite);
+    border-radius: 100px;
+}
+
+
+.contactFooter h2{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+
+
+
+.poloska{
+    margin-bottom: 50px;
+    display: block;
+    width: 1270px;
+    height: 1px;
+    background-color: var(--textWhite);
+}
+
+
+
+
+
+
+.butFooter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--textWhite);
+    font-weight: 500;
+
+}
+
+
+
+
+
+
+@media (max-width: 1000px){
+    .footer{
+        width: 1000px;
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 46px 75px;
+       background-color: var(--bg2);
+    }
+    
+    .osnFooter{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+    }
+    
+    .infoFooter{
+        height: 80%;
+        width: 60%;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .infoFooter h3{
+        width: 300px;
+        font-weight: 500;
+        font-size: 1.25rem;
+        color: var(--textWhite);
+    }
+    
+    .infoFooter p{
+        width: 320px;
+        font-size: 0.90rem;
+        font-weight: 500;
+        color: var(--textWhite);
+    }
+    
+    .infoFooter span{
+        width: 163px;
+        font-size: 0.90rem;
+        font-weight: 500;
+        color: var(--textWhite);
+    }
+    
+    
+    .listComFooter{
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        width: 100%;
+        height: 80%;
+    }
+    
+    .lictFooter1 nav ul{
+        width: 150px;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    
+    .lictFooter1 nav ul li{
+        color: var(--textWhite);
+        font-weight: 500;
+        font-size: 0.90rem;
+    }
+    
+    
+    
+    .lictFooter2 nav ul{
+        width: 150px;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .lictFooter2 nav ul li{
+        color: var(--textWhite);
+        font-weight: 500;
+        font-size: 0.90rem;
+    }
+    
+    
+    
+    
+    
+    
+    .contactFooter{
+        height: 56%;
+        width: 200px;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: column;
+        color: var(--textWhite);
+    }
+
+    .contactFooter h3{
+        width: 122px;
+        font-size: 1.25rem;
+    }
+
+    .contactFooter h2{
+        width: 180px;
+        font-size: 1rem;
+    }
+
+    .contactFooter span{
+        width: 130px;
+        font-size: 1rem;
+    }
+    
+    .iconFooter{
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    
+    .iconFooter i{
+        background-color: var(--textWhite);
+        border-radius: 100px;
+    }
+    
+    
+    .contactFooter h2{
+        font-weight: 500;
+        font-size: 0.90rem;
+    }
+    
+    
+    
+    
+    
+    .poloska{
+        margin-bottom: 50px;
+        display: block;
+        width: 900px;
+        height: 1px;
+        background-color: var(--textWhite);
+    }
+    
+    
+    
+    
+    
+    
+    .butFooter{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: var(--textWhite);
+        font-weight: 500;
+        font-size: 0.85rem;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    .footer{
+        width: 768px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 46px 75px;
+        background-color: var(--bg2);
+    }
+    
+    .osnFooter{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+    }
+    
+    .infoFooter{
+        height: 80%;
+        width: 30%;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+
+    .infoFooter img{
+        width: 80px;
+    }
+    
+    .infoFooter h3{
+        width: 180px;
+        font-weight: 500;
+        font-size: 0.90rem;
+        color: var(--textWhite);
+    }
+    
+    .infoFooter p{
+        width: 180px;
+        font-size: 0.60rem;
+        font-weight: 500;
+        color: var(--textWhite);
+    }
+    
+    .infoFooter span{
+        width: 163px;
+        font-size: 0.60rem;
+        font-weight: 500;
+        color: var(--textWhite);
+    }
+    
+    
+    .listComFooter{
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        width: 100%;
+        height: 80%;
+    }
+    
+    .lictFooter1 nav ul{
+        width: 120px;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    
+    .lictFooter1 nav ul li{
+        color: var(--textWhite);
+        font-weight: 500;
+        font-size: 0.90rem;
+    }
+    
+    
+    
+    .lictFooter2 nav ul{
+        width: 120px;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .lictFooter2 nav ul li{
+        color: var(--textWhite);
+        font-weight: 500;
+        font-size: 0.90rem;
+    }
+    
+    
+    
+    
+    
+    
+    .contactFooter{
+        height: 56%;
+        width: 120px;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: column;
+        color: var(--textWhite);
+    }
+
+    .contactFooter h3{
+        width: 122px;
+        font-size: 1rem;
+    }
+
+    .contactFooter h2{
+        width: 120px;
+        font-size: 0.70rem;
+    }
+
+    .contactFooter span{
+        width: 130px;
+        font-size: 0.70rem;
+    }
+    
+    .iconFooter{
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    
+    .iconFooter i{
+        background-color: var(--textWhite);
+        border-radius: 100px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .poloska{
+        margin-bottom: 50px;
+        display: block;
+        width: 600px;
+        height: 1px;
+        background-color: var(--textWhite);
+    }
+    
+    
+    
+    
+    
+    
+    .butFooter{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: var(--textWhite);
+        font-weight: 500;
+        font-size: 0.65rem;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 480px){
+    .footer{
+        width: 480px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 46px 35px;
+        background-color: var(--bg2);
+    }
+    
+    .osnFooter{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .infoFooter{
+        height: 80%;
+        width: 40%;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+
+    .infoFooter img{
+        margin-left: 50px;
+        width: 80px;
+    }
+    
+    .infoFooter h3{
+        width: 180px;
+        font-weight: 500;
+        font-size: 0.90rem;
+        color: var(--textWhite);
+    }
+    
+    .infoFooter p{
+        width: 180px;
+        font-size: 0.60rem;
+        font-weight: 500;
+        color: var(--textWhite);
+    }
+    
+    .infoFooter span{
+        width: 163px;
+        font-size: 0.60rem;
+        font-weight: 500;
+        color: var(--textWhite);
+    }
+    
+    
+    .listComFooter{
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        width: 100%;
+        height: 70%;
+    }
+    
+    .lictFooter1 nav ul{
+        width: 120px;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    
+    .lictFooter1 nav ul li{
+        color: var(--textWhite);
+        font-weight: 500;
+        font-size: 0.90rem;
+    }
+    
+    
+    
+    .lictFooter2 nav ul{
+        width: 120px;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .lictFooter2 nav ul li{
+        color: var(--textWhite);
+        font-weight: 500;
+        font-size: 0.90rem;
+    }
+    
+    
+    
+    
+    
+    
+    .contactFooter{
+        height: 85%;
+        width: 120px;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: column;
+        color: var(--textWhite);
+    }
+
+    .contactFooter h3{
+        width: 122px;
+        font-size: 1rem;
+    }
+
+    .contactFooter h2{
+        width: 120px;
+        font-size: 0.70rem;
+    }
+
+    .contactFooter span{
+        width: 130px;
+        font-size: 0.70rem;
+    }
+    
+    .iconFooter{
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    
+    .iconFooter i{
+        background-color: var(--textWhite);
+        border-radius: 100px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .poloska{
+        margin-bottom: 50px;
+        display: block;
+        width: 400px;
+        height: 1px;
+        background-color: var(--textWhite);
+    }
+    
+    
+    
+    
+    
+    
+    .butFooter{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: var(--textWhite);
+        font-weight: 400;
+        font-size: 0.35rem;
+    }
+}
